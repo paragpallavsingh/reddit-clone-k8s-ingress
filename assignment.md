@@ -156,7 +156,7 @@ minikube addons list
 
 **Run ingress file:** 
 ```
-kubectl apply -f ingress.yml -n reddit-app
+kubectl apply -f ingress.yml -n reddit-ns
 ```
 
 **Check the created ingress file:** 
